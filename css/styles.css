@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(184, 0, 184);
+    background-image: url("/images/guitar.jpg");
+    background-image: url("../images/guitar.jpg");
+    background-size: cover;
+    color: rgb(50, 204, 63)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Trocchi', serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 48px;
+    margin: 0;
+}
+
+h3.text {
+    color: rgb(50, 204, 63);
+    text-shadow: 5px 5px #000000;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.menu {
+
+    width: 100%;
+    background-color: darkslateblue;
+
+}
+
+.box {
+    margin: 5%;
+    padding: 2%;
+}
+
+.buttons-menu {
+    border: solid black 5px;
+    padding: 1%;
+
+
+}
+
+#pokebutton {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.box {
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1%;
+    padding: 2%;
+
+}
+
+.rightbox {
+    background-color: rgb(69, 1, 104);
+    opacity: 0.95;
+    height: 150px;
+}
+
+.leftbox {
+    background-color: rgb(23, 77, 10);
+    opacity: 0.95;
+}
+
+#info {
+    font-weight: bold;
+
+    font-size: xx-large;
+}
+
+.button-home, .button-games, .button-info {
+    margin: 0.5%;
+    padding: 1%;
+    margin-left: 20%;
+    border: groove rgb(69, 1, 104) 5px;
+    background-color: rgb(55, 55, 209);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+    border-radius: 80px;
+}
+
+.ageplayer {
+    margin: 0.5%;
+    padding: 1%;
+    border: groove rgb(69, 1, 104) 5px;
+    background-color: rgb(55, 55, 209);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+    border-radius: 80px;
+    width: 150px;
+}
+
+#button-old {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(55, 55, 209);
+    text-shadow: 0.35px 0.3px #b327cc;
+    color: rgb(3, 3, 3);
+}
+
+#button-old:hover, #button-delete:hover {
+    background-color: rgb(31, 150, 37);
+    opacity: 0.7;
+}
+
+#submitplayerinfo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#submittableinfo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.button-home:hover, .button-games:hover, .button-info:hover {
+    background-color: rgb(50, 204, 63);
+    opacity: 0.7;
+}
+
+.text {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+.link-chess, .link-pong, .link-candy {
+    margin: 0.5%;
+    padding: 1%;
+    border: groove rgb(1, 7, 20) 5px;
+    background-color: rgb(55, 55, 209);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50px;
+    font-size: x-large;
+    color: black;
+
+}
+
+.link-chess:hover, .link-pong:hover, .link-candy:hover {
+    background-color: rgb(204, 189, 50);
+}
+
+.footer {
+    margin-left: 85%;
+}
+
+.scoreboard {
+    border: rgb(255, 255, 255) 5px;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.toast {
+    font-size: x-large;
+    text-shadow: 2px 2px #000000;
+}
+
+.scoreboard tr, td, tbody {
+    border: white;
+    width: 20%;
+}
+
+caption, h4, .poke-name {
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: red;
+    text-shadow: 5px 5px #000000;
+}
+
+table {
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1%;
+    text-align: center;
+}
+
+#poke {
+    display: flex;
+
+}
+
+#pokePlayer {
+    margin: auto;
+    position: absolute;
+    left: 25%;
+    top: 75%;
+
+}
+
+
+
+#pokebutton {
+    margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: darkred;
+    }
+}

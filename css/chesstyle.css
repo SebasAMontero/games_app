@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(85, 67, 85, 0.541);
+}
+
+.chessboard {
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.home {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(15, 108, 214);
+}
+
+.chessboard div {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+
+}
+
+.minibox {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.square, .chessboard {
+    position: relative;
+
+
+}
+
+.chesspieces {
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    position: absolute;
+    top: 11.8%;
+    left: 0.45%;
+
+}
+
+.piece {
+    background: center;
+}
+
+
+.chesspieces div {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+
+}
+.footer {
+    margin-left: 85%;
+}
