@@ -1,0 +1,25 @@
+body{
+    background-color: darkslategrey;
+}
+.grid{
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 5px;
+    margin: 1%;
+    
+}
+.home {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(15, 108, 214);
+}
+.grid div{
+    height: 70px;
+    width: 70px;
+
+}
+.footer {
+    margin-left: 85%;
+}

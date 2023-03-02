@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* background */
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 251, 21);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+.instructions {
+
+    color: hotpink;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 35%;
+    position: absolute;
+    margin-left: 33%;
+    text-justify: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blueplayer {
+    color: blue;
+}
+
+.greenplayer {
+    color: greenyellow;
+}
+
+.bar {
+    width: 20px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+#bar1 {
+    top: 20px;
+    float: left;
+    position: absolute;
+    background-color: blue;
+}
+
+.home {
+    margin-left: 10%;
+    font-size: xx-large;
+}
+
+#bar2 {
+    top: 20px;
+    right: 0px;
+    position: absolute;
+    background-color: greenyellow;
+}
+
+#line {
+    width: 50%;
+    border-right: white dashed 5px;
+    height: 100%;
+    position: absolute;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 85%;
+
+   
+
+}
+
+#playagain {
+
+    margin-left: 21%;
+    font-size: xx-large;
+}
+
+#greenpoints {
+    color: greenyellow;
+    font-size: larger;
+}
+
+#bluepoints {
+    color: rgb(85, 47, 255);
+    font-size: larger;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Coder</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <nav>
+                <div class="title">
+                    <h1>Welcome to Very Illegal Pirate Games:</h1>
+                </div>
+                <div class="buttons-menu">
+                    <button class="button-home">Home</button>
+                    <button class="button-games">Games</button>
+                    <button class="button-info">About</button>
+                </div>
+            </nav>
+        </div>
+
+        <div class="box">
+            <div class="rightbox">
+                <h3 class="text">I want to play: </h3>
+                <div class="rightbox-buttons">
+                    <a class="link-chess" href="chess.html" value="text">Chess</a>
+                    <a class="link-pong" href="pong.html" value="text">Pong</a>
+                    <a class="link-candy" href="candy.html" value="text">CandyCrush</a>
+                </div>
+
+            </div>
+            <div class="leftbox">
+                <p>
+                    <inline id="info">Info:</inline> Ingrese los datos de los jugadores, luego de cada jugador presione
+                    "Add" y cuando ya no haya mas
+                    jugadores presione "Create Table"
+                </p>
+            </div>
+            <div class="players">
+                <form id="formplayer">
+                    <label for="fplayers">Enter N° ID:</label>
+                    <input type="number" id="numberplayers" name="numberplayers" value=""><br>
+                    <label for="fname">Enter Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="age">Enter age:</label><br>
+                    <input type="number" id="age" name="age">
+                    <input type="submit" value="Add" id="submitplayerinfo">
+                    <input type="button" value="Create table" id="submittableinfo">
+                </form>
+            </div>
+            <div class="playerstable">
+                <table class="table-players">
+                    <caption> Players</caption>
+                    <thead>
+                        <tr id="tr-player">
+                            <th id="th-player">Player</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-players-body">
+                        <tr id="tr-name">
+                            <td>Name</td>
+                        </tr>
+                        <tr id="tr-age">
+                            <td>Age</td>
+                        </tr>
+                        <tr id="tr-id">
+                            <td>ID</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+                <div>
+                    <button class="ageplayer" id="button-old"> Find oldest player</button>
+                    <button class="ageplayer" id="button-delete"> Delete Players </button>
+                </div>
+
+                <div id="oldplayer"></div>
+                <div id="poke">
+                    <div id="minipoke">
+                        <h4>Who's that Pokemon? </h4>
+                        <button id="pokebutton">Take free Pokemon</button>
+                        <div id="imgpoke">
+                            <p id="pokePlayer">
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+            <footer class="footer"> Autor: Sebastian A. Montero 2022</footer>
+        </div>
+
+        <script src="Js/mainscript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="Js/libreria.js"></script>
+
+</body>
+
+</html>
